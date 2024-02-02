@@ -1,0 +1,8 @@
+.google-map-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.google-map-container > iframe {
+  outline: white;
+}

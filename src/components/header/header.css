@@ -1,9 +1,13 @@
 .header-nav-container {
-  position: absolute;
   width: 100%;
+}
+
+.header-absolute {
+  position: absolute;
   z-index: 10;
   top: 0;
   left: 0;
+  opacity: 0.9;
 }
 
 .header-wrapper {
@@ -13,7 +17,6 @@
 }
 
 header {
-  opacity: 0.9;
   background: #061321;
   padding: 2.75rem 0;
 }

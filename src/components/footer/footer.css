@@ -1,0 +1,148 @@
+footer > .wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-top {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #909090;
+  margin-bottom: 6rem;
+}
+
+.footer-top span {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.footer-top svg {
+  cursor: pointer;
+}
+
+.footer-top img {
+  width: 320px;
+}
+
+.footer-main {
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  border-right: 1px solid #909090;
+}
+
+.footer-section:first-child {
+  width: 25%;
+}
+
+.footer-section:first-child a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 185%; /* 25.9px */
+  text-decoration-line: underline;
+  transition: all 0.2s;
+}
+
+.footer-section:first-child a:hover {
+  color: #00a3ff;
+}
+
+.footer-section:nth-child(2) {
+  width: 45%;
+}
+
+.footer-section:nth-child(2) li {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 185%; /* 25.9px */
+  color: #00a3ff;
+  cursor: pointer;
+}
+
+.footer-section:nth-child(2) li:hover {
+  text-decoration: underline;
+}
+
+.footer-section:nth-child(2) span {
+  color: #fff;
+  width: 5rem;
+}
+
+.footer-section:last-child {
+  width: 25%;
+  border-right: none;
+}
+
+.footer-section b {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 185%; /* 29.6px */
+}
+
+.footer-section:last-child span {
+  color: #00a3ff;
+}
+
+.footer-section h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.footer-bottom {
+  padding: 2.75rem 0;
+  opacity: 0.8;
+  background: #000;
+}
+
+.footer-bottom p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.footer-krochas-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.footer-krochas-section > h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+
+.footer-krochas-section img {
+  width: 240px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.footer-krochas-section img:hover {
+  transform: scale(1.05);
+}

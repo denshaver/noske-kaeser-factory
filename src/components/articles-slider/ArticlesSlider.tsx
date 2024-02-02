@@ -67,7 +67,7 @@ const ArticlesSlider = () => {
         />
       </section>
       <div className="wrapper">
-        <p className="text_primary article-carousel-text">
+        <p className="text_primary_white article-carousel-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
           mollis aliquam ut porttitor leo a diam sollicitudin tempor. Placerat

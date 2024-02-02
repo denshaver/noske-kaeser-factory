@@ -1,0 +1,22 @@
+.contact-page {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.contact-page ul {
+  list-style: none;
+}
+
+.contact-page h3 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-page li {
+  font-size: 2rem;
+}
+
+.contact-page span {
+  color: #00a3ff;
+  font-weight: 600;
+}

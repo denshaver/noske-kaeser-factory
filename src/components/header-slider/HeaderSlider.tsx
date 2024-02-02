@@ -59,11 +59,13 @@ const HeaderSlider = () => {
             </div>
             <div className="header-carousel-side-left">
               <div className="line"></div>
-              <FacebookFill
-                strokeWidth={2}
-                size={32}
-                className="header-carousel-link-svg"
-              />
+              <a href="https://www.facebook.com" target="_blank">
+                <FacebookFill
+                  strokeWidth={2}
+                  size={32}
+                  className="header-carousel-link-svg"
+                />
+              </a>
               <div className="line"></div>
             </div>
             <div className="header-carousel-side-right"></div>
@@ -81,11 +83,13 @@ const HeaderSlider = () => {
             </div>
             <div className="header-carousel-side-left">
               <div className="line"></div>
-              <FacebookFill
-                strokeWidth={2}
-                size={32}
-                className="header-carousel-link-svg"
-              />
+              <a href="https://www.facebook.com" target="_blank">
+                <FacebookFill
+                  strokeWidth={2}
+                  size={32}
+                  className="header-carousel-link-svg"
+                />
+              </a>
               <div className="line"></div>
             </div>
             <div className="header-carousel-side-right"></div>

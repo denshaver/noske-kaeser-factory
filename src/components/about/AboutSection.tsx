@@ -10,7 +10,7 @@ const AboutSection = () => {
     <section className="about-us">
       <div className="wrapper">
         <h4 className="text_subtitle">Lorem ipsum dolor sit amet</h4>
-        <h2 className="text_title_m">Über uns</h2>
+        <h2 className="text_title_m_white">Über uns</h2>
         <img src={dotsDividerSvg} alt="" className="divider" />
         <div className="about-cards-container">
           <div className="about-cards-row">
