@@ -3,18 +3,21 @@ import logo from "../../img/logo.png";
 import krochasLogo from "../../img/krochas-logo.png";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import useScreenSize from "../../utils/useScreenSize";
 
 const Footer = () => {
   const handleLinkOnClick = () => {
     window.scrollTo(0, 0);
   };
+  const screenSize = useScreenSize();
+
   return (
     <footer>
       <div className="wrapper">
         <div className="footer-top">
           <img src={logo} alt="" />
           <span>
-            Folgen Sie uns:{" "}
+            {screenSize.width >= 425 ? "Folgen Sie uns:" : ""}
             <a href="https://www.facebook.com" target="_blank">
               <FacebookFill strokeWidth={2} size={28} />
             </a>
@@ -69,7 +72,7 @@ const Footer = () => {
       </div>
       <div className="footer-krochas-section">
         <h5>Website by:</h5>
-        <Link to={"www.krochas.de"} className="clear_a" target="_blank">
+        <Link to={"https://www.krochas.de"} className="clear_a" target="_blank">
           <img src={krochasLogo} alt="" />
         </Link>
       </div>

@@ -1,11 +1,9 @@
 .articles-carousel {
-  width: 1110px;
-  margin: 0 auto;
-  margin-top: -130px;
+  margin-top: -130px !important;
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 4rem !important;
 }
 
 .articles-carousel-card {
@@ -89,4 +87,50 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .articles-carousel {
+    margin-bottom: 10rem !important;
+    justify-content: center !important;
+  }
+  .articles-carousel-left-btn {
+    left: 45%;
+    bottom: -55px;
+  }
+  .articles-carousel-right-btn {
+    right: 45%;
+    bottom: -55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-carousel-left-btn {
+    left: 40%;
+  }
+  .articles-carousel-right-btn {
+    right: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .articles-carousel {
+    margin-top: 0 !important;
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .articles-carousel {
+    width: 85% !important;
+  }
+
+  .articles-carousel-left-btn {
+    left: 35%;
+    bottom: -55px;
+  }
+  .articles-carousel-right-btn {
+    right: 35%;
+    bottom: -55px;
+  }
 }

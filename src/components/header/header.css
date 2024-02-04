@@ -69,17 +69,66 @@ nav li {
   font-size: 1.8rem;
   font-weight: 400;
   padding: 1.5rem 4rem;
-  border-right: 1px solid #69778a;
   transition: all 0.15s;
   cursor: pointer;
 }
 
-nav li:first-child {
+nav a {
+  border-right: 1px solid #69778a;
+}
+
+nav a:first-child {
   border-left: 1px solid #69778a;
 }
 
 nav li:hover {
   color: #00a3ff;
-  font-size: 1.8rem;
   font-weight: 700;
+}
+
+@media (max-width: 910px) {
+  header img {
+    width: 300px;
+  }
+
+  .header-desktop-section {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-absolute {
+    position: static;
+  }
+  header {
+    padding: 1.75rem 2rem;
+  }
+  header img {
+    width: 250px;
+    max-width: 40vw;
+  }
+  .header-desktop-location {
+    display: none;
+  }
+  nav li {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  nav li {
+    font-size: 1.25rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .header-desktop-section h4 {
+    font-size: 1.5rem;
+  }
+
+  .header-desktop-section span {
+    font-size: 1.5rem;
+  }
 }

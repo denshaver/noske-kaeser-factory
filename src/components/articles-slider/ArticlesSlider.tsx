@@ -9,8 +9,10 @@ import cardImg3 from "../../img/card_art_3.jpeg";
 import { useCallback, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "akar-icons";
 import ArticleSlideItem from "./ArticleSlideItem";
+import useScreenSize from "../../utils/useScreenSize";
 
 const ArticlesSlider = () => {
+  const screenSize = useScreenSize();
   const sliderRef = useRef(null);
 
   const handlePrev = useCallback(() => {
@@ -25,10 +27,10 @@ const ArticlesSlider = () => {
 
   return (
     <>
-      <section className="articles-carousel">
+      <section className="articles-carousel wrapper">
         <Swiper
           ref={sliderRef}
-          slidesPerView={3}
+          slidesPerView={screenSize.width >= 550 ? 3 : 1}
           spaceBetween={30}
           className="mySwiper"
         >

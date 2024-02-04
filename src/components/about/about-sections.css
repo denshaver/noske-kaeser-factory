@@ -63,3 +63,33 @@
   right: 0;
   z-index: -1;
 }
+
+@media (max-width: 700px) {
+  .about-card {
+    width: 90%;
+    max-height: unset;
+    height: auto;
+    padding: 4rem 6.5rem;
+  }
+
+  .about-card > h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-card > p {
+    font-size: 1.3rem;
+  }
+
+  .about-cards-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: unset;
+    align-items: center;
+  }
+
+  .about-cards-row:first-child {
+    margin-bottom: 3rem;
+  }
+}

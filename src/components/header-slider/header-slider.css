@@ -36,7 +36,7 @@
 }
 
 .header-carousel-slide img {
-  width: inherit;
+  width: 100%;
   height: inherit;
   object-fit: cover;
   object-position: center;
@@ -64,7 +64,7 @@
 .header-carousel-side-left {
   height: 40%;
   position: absolute;
-  left: 150px;
+  left: 15rem;
   color: #fff;
 
   display: flex;
@@ -78,7 +78,7 @@
   width: 1px;
   height: 40%;
   position: absolute;
-  right: 150px;
+  right: 15rem;
   background-color: #fff;
 }
 
@@ -90,4 +90,75 @@
 
 .header-carousel-link-svg {
   cursor: pointer;
+}
+
+@media (max-width: 1500px) {
+  .header-carousel-side-left {
+    left: 5%;
+  }
+  .header-carousel-side-right {
+    right: 5%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header-carousel-side-left {
+    display: none;
+  }
+  .header-carousel-side-right {
+    display: none;
+  }
+}
+
+@media screen and (max-device-height: 650px) {
+  .header-carousel-slide-content {
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+
+  .header-carousel-slide-content h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 114%;
+    text-transform: uppercase;
+  }
+
+  .header-carousel-slide-content h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 114%;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-carousel-slide {
+    height: 50vh;
+    max-height: 1000px;
+  }
+
+  .header-carousel-slide-content h1 {
+    font-size: 6rem;
+  }
+
+  .header-carousel-slide-content h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-carousel-slide {
+    align-items: flex-end;
+  }
+
+  .header-carousel-slide-content {
+    padding-bottom: 3rem;
+  }
+  .header-carousel-slide-content h1 {
+    font-size: 4rem;
+  }
+
+  .header-carousel-slide-content h2 {
+    font-size: 1.75rem;
+  }
 }

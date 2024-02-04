@@ -101,3 +101,74 @@
 .service-card-vip > span {
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .services {
+    padding: 6rem;
+  }
+
+  .services p {
+    margin-bottom: 5rem;
+  }
+
+  .services-cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .service-card {
+    width: 47.5%;
+    padding: 4rem 0;
+    height: auto;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 5%;
+  }
+
+  .service-card ul {
+    gap: 1.5rem;
+  }
+
+  .service-card li {
+    font-size: 1.5rem;
+  }
+
+  .service-card > h4 {
+    font-size: 2rem;
+  }
+
+  .service-card > span {
+    gap: 0.5rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .services-cards-container {
+    justify-content: unset;
+    flex-direction: column;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  .services-icons-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .service-icon {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .service-icon > img {
+    width: 75%;
+  }
+}
