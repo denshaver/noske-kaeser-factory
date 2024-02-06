@@ -1,4 +1,10 @@
-const AboutCardItem = ({ title }) => {
+import { FC } from "react";
+
+interface AboutCardItemProps {
+  title: string;
+}
+
+const AboutCardItem: FC<AboutCardItemProps> = ({ title }) => {
   return (
     <div className="about-card">
       <h3>{title}</h3>

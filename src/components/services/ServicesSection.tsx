@@ -1,4 +1,3 @@
-import { Check, Clock, Cross } from "akar-icons";
 import container2D from "../../img/container_2d.png";
 import dotsDividerSvg from "../../img/dots-divider.svg";
 
