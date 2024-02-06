@@ -17,11 +17,13 @@ const ArticlesSlider = () => {
 
   const handlePrev = useCallback(() => {
     if (!sliderRef.current) return;
+    // @ts-ignore
     sliderRef.current.swiper.slidePrev();
   }, []);
 
   const handleNext = useCallback(() => {
     if (!sliderRef.current) return;
+    // @ts-ignore
     sliderRef.current.swiper.slideNext();
   }, []);
 
