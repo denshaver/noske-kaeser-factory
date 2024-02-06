@@ -62,7 +62,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   .about-service {
     flex-direction: column;
     width: 90%;

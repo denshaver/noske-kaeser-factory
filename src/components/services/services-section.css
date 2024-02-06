@@ -144,7 +144,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   .services-cards-container {
     justify-content: unset;
     flex-direction: column;

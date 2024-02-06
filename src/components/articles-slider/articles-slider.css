@@ -120,7 +120,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   .articles-carousel {
     width: 85% !important;
   }

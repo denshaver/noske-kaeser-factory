@@ -129,7 +129,7 @@ header a,
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   .text_title_m {
     font-size: 3.5rem;
   }

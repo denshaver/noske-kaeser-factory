@@ -83,7 +83,6 @@ nav a:first-child {
 
 nav li:hover {
   color: #00a3ff;
-  font-weight: 700;
 }
 
 @media (max-width: 910px) {
@@ -118,7 +117,7 @@ nav li:hover {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   nav li {
     font-size: 1.25rem;
     padding: 1.5rem 2rem;
